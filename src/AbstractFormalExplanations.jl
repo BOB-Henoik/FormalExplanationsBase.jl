@@ -1,5 +1,15 @@
 module AbstractFormalExplanations
 
-# Write your package code here.
+export 
+    AbstractExplainer,
+    explainer,
+    fit!,
+    fit,
+    explain,
+    explain_all,
+    fitted_decisions,
+    fitted_params
+
+include("Explainer.jl")
 
 end
