@@ -1,6 +1,6 @@
-using AbstractFormalExplanations
+using FormalExplanationsBase
 using Test
 
-@testset "AbstractFormalExplanations.jl" begin
+@testset "FormalExplanationsBase.jl" begin
     # Write your tests here.
 end

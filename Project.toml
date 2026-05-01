@@ -1,6 +1,6 @@
-name = "AbstractFormalExplanations"
+name = "FormalExplanationsBase"
 uuid = "65ecc5ca-4c4f-4908-9971-4344901c0524"
-version = "1.0.0-DEV"
+version = "1.0.1"
 authors = ["Hénoïk Willot"]
 
 [deps]

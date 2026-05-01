@@ -1,4 +1,4 @@
-module AbstractFormalExplanations
+module FormalExplanationsBase
 
 export 
     AbstractExplainer,
