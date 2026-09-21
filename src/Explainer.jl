@@ -58,7 +58,7 @@ end
 """
 function explain end
 
-@resumable function explain(E::Explainer, decision::D) where {D<:RCB.AbstractDecision}
+@resumable function explain(E::Explainer, decision::D) where {D}
     for explanation in explain(E.model, E.fitresult, decision)
         @yield explanation
     end
